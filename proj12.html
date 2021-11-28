@@ -1,0 +1,28 @@
+<html>
+  <head>
+
+    <title>Exercício 12</title>
+
+  </head>
+<body>
+    Você está em seu peso ideal ? <br>
+
+
+<script language="javascript">
+
+        peso = parseFloat(window.prompt("Insira o peso: "));
+        altura = parseFloat(window.prompt("Insira a altura: "));
+
+        relaçãoPA = peso / Math.pow(altura, 2)
+
+        if (relaçãoPA < 20)
+        document.write("Você está <b>abaixo do peso</b>.");
+
+        else  if (relaçãoPA <= 25)
+        document.write("Você está <b>acima do peso</b>.");
+
+        else
+        document.write("Você está com um <b>peso ideal</b>.");
+    </script>
+</body>
+</html>
